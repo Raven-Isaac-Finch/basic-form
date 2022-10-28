@@ -1,5 +1,6 @@
 import * as yup from "yup";
 
+//eslint-disable-next-line
 const phoneRegExp = /\+90\ [1-9][0-9][0-9]\ [0-9][0-9]\ [0-9][0-9]$/
 
 export const basicSchema = yup.object().shape({
